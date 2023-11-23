@@ -14,7 +14,7 @@ pipeline {
          }
          stage ('create tarball') {
              steps {
-                 sh 'tar -xvf project01.tar *'
+                 sh 'tar -cvf project01.tar *'
              }
          }  
         }
